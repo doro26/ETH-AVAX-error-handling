@@ -4,9 +4,6 @@
 
 In Solidity, error handling is essential for building secure and reliable smart contracts. Solidity provides three primary mechanisms: `require()`, `assert()`, and `revert()`. The `require()` function checks for valid conditions and inputs, reverting the transaction and refunding gas if the condition fails. The `assert()` function ensures internal consistency and invariants, consuming all gas if the condition fails, indicating a critical contract bug. Finally, the `revert()` function explicitly reverts the transaction, often with a custom error message, making it useful for handling complex errors. These mechanisms help maintain contract integrity by preventing invalid states and providing clear error feedback.
 
----
-
-This paragraph captures the key points of Solidity’s error handling in a more concise format.
 # ErrorHandling Smart Contract
 
 ## Overview
